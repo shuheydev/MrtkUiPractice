@@ -2757,8 +2757,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 419416334314042915, guid: d82e2f09994ad2f4fb43359bfb977f64,
         type: 3}
+      propertyPath: m_text
+      value: Add List Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 419416334314042915, guid: d82e2f09994ad2f4fb43359bfb977f64,
+        type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 419416334314042915, guid: d82e2f09994ad2f4fb43359bfb977f64,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 419416334314042915, guid: d82e2f09994ad2f4fb43359bfb977f64,
         type: 3}
@@ -4926,7 +4936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250650415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 0, z: 0.1}
+  m_LocalPosition: {x: -0.3414, y: 0.2223, z: 0.1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 1430381974}
