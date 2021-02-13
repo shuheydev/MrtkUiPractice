@@ -1952,7 +1952,7 @@ MonoBehaviour:
   facingCameraTrackingThreshold: 80
   requireFlatHand: 0
   flatHandThreshold: 45
-  followHandUntilFacingCamera: 0
+  followHandUntilFacingCamera: 1
   followHandCameraFacingThresholdAngle: 50
   useGazeActivation: 0
   eyeGazeProximityThreshold: 0.0125
