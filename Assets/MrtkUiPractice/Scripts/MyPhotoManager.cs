@@ -26,7 +26,7 @@ public class MyPhotoManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        photo = Resources.Load<Texture2D>("PngPicture");
+        
     }
 
     // Update is called once per frame
@@ -37,6 +37,7 @@ public class MyPhotoManager : MonoBehaviour
 
     public void LoadPhoto()
     {
+        photo = Resources.Load<Texture2D>("PngPicture");
         this.PhotoViewer.material.mainTexture = photo;
     }
 }

@@ -27,11 +27,13 @@ public class MyVideoManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        videoClip = Resources.Load<VideoClip>("20201221_110453_HoloLens");
+
     }
 
     public void PlayMovie()
     {
+        videoClip = Resources.Load<VideoClip>("20201221_110453_HoloLens");
+
         if (this.VideoPlayer.clip == null)
         {
             this.VideoPlayer.clip = videoClip;
@@ -49,6 +51,10 @@ public class MyVideoManager : MonoBehaviour
 
     public void PauseMovie()
     {
+        if (this.videoClip == null)
+        {
+            videoClip = Resources.Load<VideoClip>("20201221_110453_HoloLens");
+        }
         this.VideoPlayer.Pause();
     }
 }
