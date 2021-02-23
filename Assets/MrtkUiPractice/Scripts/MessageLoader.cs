@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class MessageLoader : MonoBehaviour
 {
+
+    
     // Start is called before the first frame update
     void Start()
     {
