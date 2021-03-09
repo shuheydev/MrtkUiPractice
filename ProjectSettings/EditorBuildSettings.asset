@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MrtkUiPractice/Scenes/MyScene6_SlatePractice.unity
+    guid: 7a5dcb531270dcc468621156eb12c0a9
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: e6270dbed4863ad47840013f5a9d60a9,
       type: 2}

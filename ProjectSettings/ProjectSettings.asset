@@ -145,7 +145,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.MrtkUiPractice
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -326,7 +327,7 @@ PlayerSettings:
     - Oculus
     - OpenVR
   - m_BuildTarget: Windows Store Apps
-    m_Enabled: 1
+    m_Enabled: 0
     m_Devices:
     - WindowsMR
   openGLRequireES31: 0
@@ -620,19 +621,19 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      EnterpriseAuthentication: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
       Chat: False
       Bluetooth: False
       AllJoyn: False
-      MusicLibrary: False
+      MusicLibrary: True
       LowLevelDevices: False
       PrivateNetworkClientServer: False
       InternetClientServer: False
-      VideosLibrary: False
+      VideosLibrary: True
       Objects3D: False
-      InternetClient: True
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -643,7 +644,7 @@ PlayerSettings:
       Microphone: True
       SharedUserCertificates: False
       InputInjectionBrokered: False
-      PicturesLibrary: False
+      PicturesLibrary: True
       RemovableStorage: False
       WebCam: True
       VoipCall: False
@@ -654,13 +655,13 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
+      InternetClient: True
       CodeGeneration: False
       BackgroundMediaPlayback: False
-      EnterpriseAuthentication: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
-    Holographic: False
+    Holographic: True
     IoT: False
     IoTHeadless: False
     Mobile: False
